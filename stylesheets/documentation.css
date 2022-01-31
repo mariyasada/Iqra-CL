@@ -1,0 +1,12 @@
+.button-types-container
+{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:80vw;
+    padding: 0.6rem;
+    gap:2.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
