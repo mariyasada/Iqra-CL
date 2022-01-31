@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card File</title>
+    <!-- <link rel="stylesheet" href="/stylesheets/button/button.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="/component.css" type="text/css"> -->
+    <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+    <div class="grid-container">
+        <!---------------------- nav bar --------------- -->
+        <div class="navbar">
+             <div class="logo-container">
+                 <div class="logo">
+                     <img class="logo-image" src="/images/iqra.png">
+                 </div>
+
+                 <div class="logo-text">UI</div>
+             </div>
+       <!---------------------nav items------------------------------------------------ -->
+            <div class="nav-content-container">
+                <ul class="nav-items">
+
+                    <li class="nav-item">
+                        <a href="/index.html">Getting started</a>
+                    </li>
+
+                    <li class="nav-item nav-item-active">
+                        <a href="/components.html">Component</a>
+                    </li>
+                </ul>
+            </div>
+<!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+          <div class="nav-social-media-icons-container">
+              <ul class="nav-items">
+                  <li class="nav-item">
+                      <a href="https://github.com/mariyasada">
+                          <span class="nav-icon"><i class="fab fa-github"></i></span>
+                      </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="https://twitter.com/sada_mariya">
+                        <span class="nav-icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/mariya-sada-1b6443139">
+                        <span class="nav-icon"><i class="fab fa-linkedin"></i></span>
+                    </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+<!------------------------- --------------------------nav bar ends here-------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------SIDEBAR STARTS FROM HERE------------------------------------------------ -->
+      <div class="sidebar-container sidebar-content">
+          <ul class="sidebar-items">
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/components.html">Alerts</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/avatar.html">Avatars</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/badges.html">Badges</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/button.html">Button</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list component-active">
+                        <a href="/htmlFiles/card.html">Card</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Image</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Input</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Text Utilities</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Lists</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Navigation</a>
+                    </li>
+          </ul>
+      </div>
+<!--------------------------------  side bar ends here-------------main content starts here--------------------------------- -->
+<section class="main-content-container">
+            <div class="section1-container">
+                        <h2 class="section-heading">
+                            <a href="#cards">Card</a>
+                        </h2>
+   
+                         <p class="section-text-content">
+                                A card is any type of custom element used for easy showing of contents that comprises various types of objects like title, image, button, etc. 
+                        </p>
+            
+                        <hr>
+                            <h3 class="section-sub-heading">Types of cards</h3>
+                        <hr>
+   
+                <p class="section-text-content">IQRA UI includes card with badges, card with dismiss button, text only cards etc. In code of card, e-commerce card is same as first card , but image and span are diffrent, discount and price and padding 1rem are added. If you want to use this card then add card class name to element. suppose you want to use card for your e-commerce website then add card-for-ecommerce class to element. </p>
+   <!--  --------------------------------card code container---------------------------------- -->
+         <div class="component-type-flex-container">
+                <!--------------------------------- card with badges--------------------------------- -->
+                <h3 class="section-second-sub-heading">Card with badges</h3>
+                        <div class="card-types-container">
+                                <div class="card">
+                                        <div class="card-image-holder">
+                                            <img src="https://picsum.photos/300/300" class="card-image"/>
+                                            <span class="badge-of-card"><img src="https://picsum.photos/150/200"/></span>
+                                        </div>
+        
+                                        <div class="card-body">
+                                            <span class="card-title">Card Title</span>
+                                            <p class="card-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque perspiciatis, 
+                                                molestiae cum tempore nulla error nisi aliquid excepturi eveniet non veniam. 
+                                                Architecto nihil recusandae nemo deserunt ex blanditiis culpa? Officiis!
+                                            </p>
+                                        </div>
+                                </div>
+   
+                                <div class="card-for-ecommerce pd-1">
+                                    <div class="card-image-holder">
+                                        <img src="/images/camera.jpg" class="card-image"/>
+                                        <span class="sold-out-badge">sold out</span>
+                                    </div>
+
+                                        <div class="card-body">
+                                                <span class="card-title">Black and gray camera</span>
+                                                <p class="card-detail">Vintage cameras are old cameras that are usually seen in antique and flea markets.</p>
+                                                <p class="price">15000</p>
+                                                <span class="discount">10000</span>
+                                                <button class="btn btn-fluid btn-secondary btn-outline border-round">ADD TO CART</button>
+                                        </div>
+                                </div>
+                         </div>
+    <!-- -------------------------------------card with badge ends here-------------------------------- -->
+           <h3 class="section-second-sub-heading">Card with Bismiss Button and Text-only card</h3>
+                    <div class="card-types-container">
+                           <div class="dismiss-card">
+                                        <div class="card-image-holder">
+                                                <img src="https://picsum.photos/300/300" class="card-image"/>
+                                                <span class="badge-dismiss-button"><i class="far fa-times-circle"></i></span>
+                                         </div>
+                
+                                        <div class="card-body">
+                                                <span class="card-title">Card Title</span>
+                                                <p class="card-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque perspiciatis, 
+                                                    molestiae cum tempore nulla error nisi aliquid excepturi eveniet non veniam. 
+                                                    Architecto nihil recusandae nemo deserunt ex blanditiis culpa? Officiis!
+                                                </p>
+                                        </div>
+                         </div>
+       <!------------------------------------------------- text only card--------------------------- -->
+                        <div class="text-only-card">
+                              <div class="card-body">
+                                        <div class="container-of-titles">
+                                            <span class="card-title">IQRA UI</span>
+                                            <span class="card-sub-title">Let's design together</span>
+                                        </div>
+                                        <p class="card-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque perspiciatis, 
+                                            molestiae cum tempore nulla error nisi aliquid excepturi eveniet non veniam. 
+                                            Architecto nihil recusandae nemo deserunt ex blanditiis culpa? Officiis!
+                                        </p>
+                              </div>
+                        </div>
+                </div>
+   <!-- --------------------------------------CARDS WITH TEXT OVERLAY AND CARDS WITH SHADOW---------------  -->
+            <h3 class="section-second-sub-heading">Text-overlay card and card with shadow</h3>
+                    <div class="card-types-container">
+                                <div class="card-for-ecommerce pd-1 card-text-overlay">
+                                        <div class="card-image-holder">
+                                            <img src="/images/camera.jpg" class="card-image"/>
+                                        </div>
+                                        <div class="card-body">
+                                                <span class="card-title">Black and gray camera</span>
+                                                <p class="card-detail">Vintage cameras are old cameras that are usually seen in antique and flea markets.</p>
+                                                <p class="price">15000</p>
+                                                <span class="discount">10000</span>
+                                                <button class="btn btn-fluid btn-secondary btn-outline border-round">ADD TO CART</button>
+                                        </div>
+                            
+                                        <div class="text-over-lay">
+                                            <span class>Out Of Stock</span>
+                                        </div>
+                                 </div>
+        <!----------------------------------- card with shadow------------------------------------- -->
+                                <div class="card-for-ecommerce pd-1 card-with-shadow">
+                                            <div class="card-image-holder">
+                                                <img src="/images/camera.jpg" class="card-image"/>
+                                            </div>
+                    
+                                            <div class="card-body">
+                                                    <span class="card-title">Black and gray camera</span>
+                                                    <p class="card-detail">Vintage cameras are old cameras that are usually seen in antique and flea markets.</p>
+                                                    <p class="price">15000</p>
+                                                    <span class="discount">10000</span>
+                                                    <button class="btn btn-fluid btn-secondary btn-outline border-round">ADD TO CART</button>
+                                            </div>
+                    
+                             </div>
+               </div>
+    <!-- --------------------------------Horizontal and vertical card--------------------- -->
+        <h3 class="section-second-sub-heading">Horizontal Card and vertical card</h3>      
+                <div class="card-types-container">
+                        <div class="horizontal-card pd-1">
+                                    <div class="card-image-holder">
+                                        <img src="https://picsum.photos/300/300" class="card-image"/>
+                                    </div>
+        
+                                    <div class="card-body">
+                                        <span class="card-title">Card Title</span>
+                                        <p class="card-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque perspiciatis, 
+                                            molestiae cum tempore nulla error nisi aliquid excepturi eveniet non veniam. 
+                                            Architecto nihil recusandae nemo deserunt ex blanditiis culpa? Officiis!
+                                        </p>
+                                    </div>
+                        </div>
+    <!-- -------------------vertical-----------card------------------------------------------------------------- -->
+                       <div class="vertical-card pd-1">
+                                    <div class="card-image-holder">
+                                        <img src="https://picsum.photos/300/300" class="card-image"/>
+                                    </div>
+   
+                                    <div class="card-body">
+                                        <span class="card-title">Card Title</span>
+                                        <p class="card-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque perspiciatis, 
+                                            molestiae cum tempore nulla error nisi aliquid excepturi eveniet non veniam. 
+                                            Architecto nihil recusandae nemo deserunt ex blanditiis culpa? Officiis!
+                                        </p>
+                                    </div>
+                      </div>
+             </div>
+       <!------------------------------ card code---------------------------------------------- -->
+           <div class="section1-container">
+                        <h2 class="section-heading section-code-example-container">
+                            <a href="">Code of Card</a>
+                            <i class="fas fa-code" id ="card-code-btn"></i>
+                        </h2>
+   
+                        <div class="code-snippet" id="card-div-code"> 
+                                <iframe class="code-example"
+                                    src="https://carbon.now.sh/embed/MuC8tiW5fKRcn1rf8fzM"
+                                    style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+
+                                <iframe class="code-example"
+                                        src="https://carbon.now.sh/embed/upwbKspWixfLmmzgtY5n"
+                                        style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+            
+                                <iframe class="code-example"
+                                    src="https://carbon.now.sh/embed/8XGs9aRgN8FyoaaDY1Pn"
+                                    style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+            
+                                <iframe  class="code-example"
+                                    src="https://carbon.now.sh/embed/R69n2vgQ8bkLxWglSeRk"
+                                    style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                
+                                <iframe class="code-example"
+                                        src="https://carbon.now.sh/embed/OCe6SrFM3cqVcLOiiuxt"
+                                        style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                
+                                <iframe class="code-example"
+                                        src="https://carbon.now.sh/embed/dDODRm8S3h0EcBFcCHxr"
+                                        style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                                
+                   </div>   
+         </div>
+   
+    </section>
+</div>
+   <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
+<script>
+const cardCodeBtn = document.querySelector("#card-code-btn");
+const cardCodeDiv = document.querySelector("#card-div-code");
+   
+cardCodeBtn.addEventListener("click",() =>{
+console.log("clicked");
+cardCodeDiv .style.display =="block" ? cardCodeDiv .style.display ="none": cardCodeDiv .style.display ="block";
+  });
+   
+   
+</script>
+   
+   </body>
+   </html>

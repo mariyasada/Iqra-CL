@@ -1,4 +1,5 @@
-.button-types-container
+.button-types-container,
+.card-types-container
 {
     display:flex;
     flex-wrap: wrap;
