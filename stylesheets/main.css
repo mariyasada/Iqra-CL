@@ -7,6 +7,11 @@
 
 
 
+
+
+
+/* COLORS */
+
 :root
 {
     --light-blue:#93c5fd;
@@ -39,6 +44,7 @@
     --light-purple:#e879f9;
     --red-color:#ef4444;
     --medium-green:#1a9b49;
+
 }
 
 /* RESET CSS */
@@ -68,3 +74,5 @@ a{
      font-weight: 700;
      color:var(--dark-rose);
 }
+
+
