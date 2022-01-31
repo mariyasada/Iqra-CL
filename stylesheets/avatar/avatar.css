@@ -22,7 +22,7 @@
 .text-avatar-container
 {
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     max-width:80vw;
     padding: 0.6rem;
     gap:2.5rem;
