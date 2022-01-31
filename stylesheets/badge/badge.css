@@ -1,0 +1,165 @@
+.avatar-badges-container,
+.icon-badges-container,
+.text-badges-container
+{
+    display:flex;
+    flex-flow: row wrap;
+    max-width:80vw;
+    padding: 0.6rem;
+    gap:2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+.section-second-sub-heading
+{
+    max-width:80vw;
+    font-size: 1.7rem;
+    color: var(--light-coco);
+}
+.badge-xl,
+.badge-lg,
+.badge-md,
+.badge-sm
+{
+    position: relative;
+}
+.circle
+{
+    border-radius: 50%;
+    border: 4px solid var(--white-color);
+}
+.circle-xl
+{
+    height:2rem;
+    width:2rem;
+    position: absolute;
+    left: 10rem;
+    top:9rem;
+}
+.circle-lg
+{
+    height:1.5rem;
+    width:1.5rem;
+    position: absolute;
+    top:7rem;
+    left:7.5rem;
+}
+.circle-md
+{
+    height:1.2rem;
+    width:1.2rem;
+    position: absolute;
+    top:1rem;
+    left:5.6rem;
+}
+.circle-sm
+{
+    height:0.9rem;
+    width:0.9rem;
+    position: absolute;
+    top:2.8rem;
+    left:3.8rem;
+}
+.bg-gray
+{
+    background-color: var(--dark-stone);
+}
+.bg-purple
+{
+    background-color: var(--light-purple);
+}
+.bg-green
+{
+    background-color: var(--light-green);
+}
+.bg-red
+{
+    background-color: var(--red-color);
+}
+
+.bg-blue
+{
+    background-color: var(--light-blue);
+}
+.fg-green
+{
+    color: var(--light-green);
+}
+.fg-cyan
+{
+    color: var(--dark-cyan);
+}
+.fg-coco
+{
+    color: var(--dark-coco);
+}
+.icon-large
+{
+    font-size: 6rem;
+    position: relative;
+}
+.icon-badge{
+   height:3rem;
+   width:3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   color: white;
+   font-size: 2rem;
+   position: absolute;
+  left:3.2rem;
+  top:-0.8rem;
+   
+}
+.badge-right
+{
+    position: absolute;
+    left:4rem;
+    top:-0.9rem;
+}
+.circle-on-icon 
+{
+    position: absolute;
+    top:-0.9rem;
+    left:3.3rem;
+}
+.badge-text-example
+{
+    font-size: 2.5rem;
+    color: var(--dark-stone);
+    position: relative;
+}
+.txt-badge
+{
+    font-size: 1.8rem;
+    position: absolute;
+    top:-0.8rem;
+    color:red; 
+}
+/* media query starts */
+@media only screen and (min-width:500px )and(max-width:1300px) {
+    body {
+        height: 100%;
+        width: 100%;
+      }
+
+      .avatar-badges-container,
+      .icon-badges-container,
+      .text-badges-container
+      {
+          width:40%;
+          gap:0.3rem;
+          flex-shrink: 2;
+          display: flex;
+      }
+
+.code-snippet img
+{
+    width:30%;
+
+}
+
+
+    }
