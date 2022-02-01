@@ -61,7 +61,7 @@
 
 .input-textbox:focus{
     border: 3px solid var(--dark-blue);
-    outline: none;
+    /* outline: none; */
 }
 
 .primary-validation
