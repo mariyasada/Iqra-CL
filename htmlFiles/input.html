@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image File</title>
+    <title>Input File</title>
     <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,11 +83,11 @@
                         <a href="/htmlFiles/card.html">Card</a>
                     </li>
 
-                    <li class="sidebar-list-item sidebar-component-list component-active">
+                    <li class="sidebar-list-item sidebar-component-list">
                         <a href="/htmlFiles/image.html">Image</a>
                     </li>
 
-                    <li class="sidebar-list-item sidebar-component-list">
+                    <li class="sidebar-list-item sidebar-component-list component-active">
                         <a href="/htmlFiles/input.html">Input</a>
                     </li>
 
@@ -108,99 +108,95 @@
 <section class="main-content-container">
             <div class="section1-container">
                         <h2 class="section-heading">
-                            <a href="#image">Image</a>
+                            <a href="#input">Input</a>
                         </h2>
    
-                         <p class="section-text-content">
-                            Image is a visual representing of something or someone or a photograph. Images play an important role in any webpage.Though it is not recommended to include a lot of images, but it is still important to use good images wherever required.  
+                        <p class="section-text-content">
+                            The input element represents a typed data field, usually with a form control to allow the user to enter the data,edit the data.The type attribute controls the data type (and associated control) of the element
                         </p>
             
-                          <hr>
-                               <h3 class="section-sub-heading">Types of Image</h3>
+                           <hr>
+                               <h3 class="section-sub-heading">Types of Input</h3>
                            <hr>
 
-                    <p class="section-text-content">IQRA UI includes Responsive Image , round image and square Image.  </p>
-        
-      <!--  --------------------------------Image container---------------------------------- -->
-              <div class="component-type-flex-container">
+                           <p class="section-text-content"> There are lots of input type like date, time, email, number, color etc. In IQRA UI, you can see the textbox element and textbox with validation. </p>
+      <!--  --------------------------------Input container---------------------------------- -->
+      <div class="component-type-flex-container">
                     
-                        <h3 class="section-second-sub-heading">Responsive Image</h3>
+                <h3 class="section-second-sub-heading">TextBox</h3>
 
-                        <p class="sub-text-content"> For using the IQRA UI's responsive image you just need to add responsive-image class to your element.</p>
+                <p class="sub-text-content">In form designing, we use variety of text box.Here are the example of basic text box, input with date type and text box with label. you can see the code for more details. </p>
 
-                              <div class="responsive-image-container">
-                                    <img class="responsive-image" src="/images/avatar.jpg" loading="lazy"/>
-                              </div>
+                <div class="input-container">
+                        <input type="text" class="input-textbox" placeholder="search"/>                                  
+                </div>
 
-         <!--------------------round-image-container-----------------  -->
-                        <h3 class="section-second-sub-heading">Round Image</h3>
+                <div class="input-container">
+                            <label for="name" class="input-label">Name:</label>
+                        <input type="text" class="input-textbox" placeholder="Enter Your Name"/>                                  
+                </div>
 
-                       <p class="sub-text-content"> For using the IQRA UI's round image you just need to add round-image class to your element. Choose the size according to your need. They are different in size like image-md, image-sm, image-lg. </p>
+                <div class="input-container">
+                            <label for="name" class="input-label">Birth-Date:</label>
+                            <input type="date" class="input-textbox" />                                   
+                </div>  
+ <!---------------------input with validation---------------------  -->
+                <h3 class="section-second-sub-heading">TextBox with validation</h3>
 
-                            <div class="round-image-container">
-                                    <span> <img class="round-image image-lg" src="/images/camera.jpg" loading="lazy"> </span>
+                 <p class="sub-text-content">We always see when we entered the passsword less than 8 character it show the error message of password should be minimum 8 character so this validation has been used in so many places. Here are the some example of validation message. you can add error-validation class to input element and  error message to span element. </p>
 
-                                    <span> <img class="round-image image-md" src="/images/camera.jpg" loading="lazy"> </span>
+                <div class="input-validation-container">
+                        <label for="name" class="input-label fr-green">Name:</label>
+                    <input type="text" class="input-textbox error-validation" placeholder="Enter Your Name">
+                    <span class="error-message"> Please Enter your name</span>                                 
+                </div>
 
-                                    <span> <img class="round-image image-sm" src="/images/camera.jpg" loading="lazy"> </span>
+                <div class="input-validation-container">
+                        <label for="name" class="input-label fr-green">Password:</label>
+                        <input type="text" class="input-textbox primary-validation" placeholder="Enter password">
+                        <span class="primary-message">password must be greater than 6 character</span>                                 
+                </div>
 
-                            </div>
-                           
-      <!------------------------------------------SQUARE-IMAGE----------------  -->
-                    <h3 class="section-second-sub-heading">Square Image</h3>
-
-                    <p class="sub-text-content"> For using the IQRA UI's square image you just need to add square-image class to your element. Choose the size according to your need. They are different in size like image-md, image-sm, image-lg. </p>
-
-                            <div class="square-image-container">
-                                    <span> <img class="square-image image-lg" src="/images/camera.jpg" loading="lazy"> </span>
-
-                                    <span> <img class="square-image image-md" src="/images/camera.jpg" loading="lazy"> </span>
-
-                                    <span> <img class="square-image image-sm" src="/images/camera.jpg" loading="lazy"> </span>
-
-                            </div>
-                </div>                 
-    <!------------------------------ code of image component---------------------------------------------- -->
+                <div class="input-validation-container">
+                    <label for="name" class="input-label fr-green">Password:</label>
+                    <input type="text" class="input-textbox success-validation" placeholder="Enter password">
+                    <span class="success-message">This is success stage form validation</span>                                 
+                </div>
+</div>
+    <!------------------------------ code of input component---------------------------------------------- -->
                 <div class="section1-container">
                                 <h2 class="section-heading section-code-example-container">
-                                    <a href="">Code of Image Component</a>
-                                    <i class="fas fa-code" id ="image-code-btn"></i>
+                                    <a href="">Code of Input Component</a>
+                                    <i class="fas fa-code" id ="input-code-btn"></i>
                                 </h2>
 
-                                <div class="code-snippet" id="image-div-code"> 
-                                    
+                                <div class="code-snippet" id="input-div-code"> 
                                     <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/ptH56MHKxFIMLjgQLgGK"
-                                            style="width: 600px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin"
-                                            loading="lazy">
-                                    </iframe>
-
-                                    <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/3w6gNUhugdUqvPiLa15k"
+                                            src="https://carbon.now.sh/embed/cFmGymGBBdKAoqqHPyxY"
                                             style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                                            sandbox="allow-scripts allow-same-origin"
-                                            loading="lazy">
-                                    </iframe>
+                                            sandbox="allow-scripts allow-same-origin">
+                                     </iframe>
 
-                                    <iframe class="code-example"
-                                            src="https://carbon.now.sh/embed/Q2NsX7lqcTQV37uZcnhA"
+                                     <iframe class="code-example"
+                                            src="https://carbon.now.sh/embed/qqwB3ycbF0ni4q6S1eki"
                                             style="width: 700px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
                                             sandbox="allow-scripts allow-same-origin">
                                     </iframe>
                                 </div>   
                 </div>
-  <!------------------------------------------------code of image ends- ---------------------------- -->
+  <!------------------------------------------------code of input ends- ---------------------------- -->
          </section>
     </div>
 <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
  <script>
- const imageCodeBtn = document.querySelector("#image-code-btn");
- const imageCodeDiv = document.querySelector("#image-div-code");
-  imageCodeBtn.addEventListener("click",() =>{
+ const inputCodeBtn = document.querySelector("#input-code-btn");
+ const inputCodeDiv = document.querySelector("#input-div-code");
+  inputCodeBtn.addEventListener("click",() =>{
   console.log("clicked");
-   imageCodeDiv .style.display =="block" ? iamgeCodeDiv .style.display ="none": imageCodeDiv .style.display ="block";
+   inputCodeDiv .style.display =="block" ? inputCodeDiv .style.display ="none": inputCodeDiv .style.display ="block";
  });
+ 
+ 
  </script>
 
 </body>

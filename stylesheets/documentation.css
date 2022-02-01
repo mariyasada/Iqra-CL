@@ -2,7 +2,9 @@
 .card-types-container,
 .responsive-image-container,
 .round-image-container,
-.square-image-container
+.square-image-container,
+.input-container,
+.input-validation-container
 {
     display:flex;
     flex-wrap: wrap;
