@@ -10,13 +10,14 @@
 
 .input-textbox
 {
-    outline: none;
+    
     display: inline-block;
     max-width:100%;
     font-weight: bold;
     border-radius: 0.4rem;
     border:2px solid var(--dark-stone);
-    padding: 1rem;  
+    padding: 1rem; 
+    outline: none; 
 }
 
 .error-validation
