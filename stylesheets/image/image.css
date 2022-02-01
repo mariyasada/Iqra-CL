@@ -1,0 +1,34 @@
+/*  */
+.responsive-image
+{
+    width:100%;
+    height:100%;
+}
+
+.round-image
+{
+    border-radius: 50%;
+}
+
+.image-lg
+{
+    height:30rem;
+    width:30rem;
+}
+.image-md
+{
+    height:20rem;
+    width:20rem;
+}
+
+.image-sm
+{
+    height:10rem;
+    width:10rem;
+}
+
+.square-image
+{
+    border:1px solid var(--light-stone);
+    border-radius: 0.3rem;
+}

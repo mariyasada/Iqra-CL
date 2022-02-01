@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image File</title>
+    <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+    <div class="grid-container">
+        <!---------------------- nav bar --------------- -->
+        <div class="navbar">
+             <div class="logo-container">
+                 <div class="logo">
+                     <img class="logo-image" src="/images/iqra.png">
+                 </div>
+
+                 <div class="logo-text">UI</div>
+             </div>
+       <!---------------------nav items------------------------------------------------ -->
+            <div class="nav-content-container">
+                <ul class="nav-items">
+
+                    <li class="nav-item">
+                        <a href="/index.html">Getting started</a>
+                    </li>
+
+                    <li class="nav-item nav-item-active">
+                        <a href="/components.html">Component</a>
+                    </li>
+                </ul>
+            </div>
+<!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+          <div class="nav-social-media-icons-container">
+              <ul class="nav-items">
+                  <li class="nav-item">
+                      <a href="https://github.com/mariyasada">
+                          <span class="nav-icon"><i class="fab fa-github"></i></span>
+                      </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="https://twitter.com/sada_mariya">
+                        <span class="nav-icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/mariya-sada-1b6443139">
+                        <span class="nav-icon"><i class="fab fa-linkedin"></i></span>
+                    </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+<!------------------------- --------------------------nav bar ends here-------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------SIDEBAR STARTS FROM HERE------------------------------------------------ -->
+      <div class="sidebar-container sidebar-content">
+          <ul class="sidebar-items">
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/components.html">Alerts</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/avatar.html">Avatars</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/badges.html">Badges</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/button.html">Button</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="/htmlFiles/card.html">Card</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list component-active">
+                        <a href="/htmlFiles/image.html">Image</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Input</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Text Utilities</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Lists</a>
+                    </li>
+
+                    <li class="sidebar-list-item sidebar-component-list">
+                        <a href="">Navigation</a>
+                    </li>
+          </ul>
+      </div>
+<!--------------------------------  side bar ends here-------------main content starts here--------------------------------- -->
+<section class="main-content-container">
+            <div class="section1-container">
+                        <h2 class="section-heading">
+                            <a href="#image">Image</a>
+                        </h2>
+   
+                         <p class="section-text-content">
+                            Image is a visual representing of something or someone or a photograph. Images play an important role in any webpage.Though it is not recommended to include a lot of images, but it is still important to use good images wherever required.  
+                        </p>
+            
+                          <hr>
+                               <h3 class="section-sub-heading">Types of Image</h3>
+                           <hr>
+
+                    <p class="section-text-content">IQRA UI includes Responsive Image , round image and square Image.  </p>
+        
+      <!--  --------------------------------Image container---------------------------------- -->
+              <div class="component-type-flex-container">
+                    
+                        <h3 class="section-second-sub-heading">Responsive Image</h3>
+
+                        <p class="sub-text-content"> For using the IQRA UI's responsive image you just need to add responsive-image class to your element.</p>
+
+                              <div class="responsive-image-container">
+                                    <img class="responsive-image" src="/images/avatar.jpg" loading="lazy"/>
+                              </div>
+
+         <!--------------------round-image-container-----------------  -->
+                        <h3 class="section-second-sub-heading">Round Image</h3>
+
+                       <p class="sub-text-content"> For using the IQRA UI's round image you just need to add round-image class to your element. Choose the size according to your need. They are different in size like image-md, image-sm, image-lg. </p>
+
+                            <div class="round-image-container">
+                                    <span> <img class="round-image image-lg" src="/images/camera.jpg" loading="lazy"> </span>
+
+                                    <span> <img class="round-image image-md" src="/images/camera.jpg" loading="lazy"> </span>
+
+                                    <span> <img class="round-image image-sm" src="/images/camera.jpg" loading="lazy"> </span>
+
+                            </div>
+                           
+      <!------------------------------------------SQUARE-IMAGE----------------  -->
+                    <h3 class="section-second-sub-heading">Square Image</h3>
+
+                    <p class="sub-text-content"> For using the IQRA UI's square image you just need to add square-image class to your element. Choose the size according to your need. They are different in size like image-md, image-sm, image-lg. </p>
+
+                            <div class="square-image-container">
+                                    <span> <img class="square-image image-lg" src="/images/camera.jpg" loading="lazy"> </span>
+
+                                    <span> <img class="square-image image-md" src="/images/camera.jpg" loading="lazy"> </span>
+
+                                    <span> <img class="square-image image-sm" src="/images/camera.jpg" loading="lazy"> </span>
+
+                            </div>
+                </div>                 
+    <!------------------------------ code of image component---------------------------------------------- -->
+                <div class="section1-container">
+                                <h2 class="section-heading section-code-example-container">
+                                    <a href="">Code of Image Component</a>
+                                    <i class="fas fa-code" id ="image-code-btn"></i>
+                                </h2>
+
+                                <div class="code-snippet" id="image-div-code"> 
+                                    
+                                    <img class="code-example"
+                                            src="/images/imagecode/code.png"
+                                            style="width: 850px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin"/>
+
+                                     <img class="code-example"
+                                            src="/images/imagecode/code1.png"
+                                            style="width: 850px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin"/>
+                    
+                                      <img class="code-example"
+                                            src="/images/imagecode/code2.png"
+                                            style="width: 850px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin"/>
+                                </div>   
+                </div>
+  <!------------------------------------------------code of image ends- ---------------------------- -->
+         </section>
+    </div>
+<!-- ---------------------------------------------------------javascript functionality------------------------------- -->
+ <script>
+ const imageCodeBtn = document.querySelector("#image-code-btn");
+ const imageCodeDiv = document.querySelector("#image-div-code");
+  imageCodeBtn.addEventListener("click",() =>{
+  console.log("clicked");
+   imageCodeDiv .style.display =="block" ? iamgeCodeDiv .style.display ="none": imageCodeDiv .style.display ="block";
+ });
+ </script>
+
+</body>
+</html>
