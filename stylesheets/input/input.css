@@ -10,7 +10,7 @@
 
 .input-textbox
 {
-    outline:none;
+    outline: none;
     display: inline-block;
     max-width:100%;
     font-weight: bold;
@@ -60,6 +60,7 @@
 
 .input-textbox:focus{
     border: 3px solid var(--dark-blue);
+    outline: none;
 }
 
 .primary-validation
