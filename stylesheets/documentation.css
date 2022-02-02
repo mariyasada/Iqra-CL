@@ -10,7 +10,9 @@
 .Unordered-list-container,
 .ordered-list-container,
 .stacked-list-container,
-.navbar-component-container
+.navbar-component-container,
+.modal-container,
+.simple-modal-container
 
 {
     display:flex;
