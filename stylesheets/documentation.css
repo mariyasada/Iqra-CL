@@ -1,3 +1,4 @@
+
 .button-types-container,
 .card-types-container,
 .responsive-image-container,
@@ -5,7 +6,10 @@
 .square-image-container,
 .input-container,
 .input-validation-container,
-.text-util-container
+.text-util-container,
+.Unordered-list-container,
+.ordered-list-container,
+.stacked-list-container
 {
     display:flex;
     flex-wrap: wrap;
