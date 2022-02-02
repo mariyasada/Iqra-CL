@@ -9,6 +9,7 @@
 @import url(./image/image.css);
 @import url(./input/input.css);
 @import url(./textUtil/text.css);
+@import url(./list/list.css);
 
 
 /* COLORS */
@@ -47,6 +48,7 @@
     --medium-green:#1a9b49;
     --ex-light-red: #fecaca;
     --ex-light-purple:#efd6f3;
+    --ex-light-gray:#ddd9d6;
 
 }
 

@@ -114,9 +114,10 @@
 .code-snippet
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     display: none;
+    gap:2rem;
 }
 .code-snippet img
 {   
