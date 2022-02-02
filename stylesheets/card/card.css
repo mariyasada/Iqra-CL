@@ -147,8 +147,6 @@ button
 .button-container
 {
     display: flex;
-    flex-direction: row;
-    font-size: 1rem;
 }
 .vertical-card
 {
