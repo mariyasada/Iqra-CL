@@ -8,6 +8,7 @@
 @import url(./card/card.css);
 @import url(./image/image.css);
 @import url(./input/input.css);
+@import url(./textUtil/text.css);
 
 
 /* COLORS */
@@ -44,6 +45,8 @@
     --light-purple:#e879f9;
     --red-color:#ef4444;
     --medium-green:#1a9b49;
+    --ex-light-red: #fecaca;
+    --ex-light-purple:#efd6f3;
 
 }
 

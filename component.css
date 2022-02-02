@@ -124,6 +124,12 @@
   }
   .sidebar-list-item:hover{
       color: var(--light-teal);
+      height:100%;
+      width:100%;
+      background-color: var(--ex-light-teal);
+      border: 2px solid var(--dark-cyan);
+      border-radius: 0.3rem;
+      padding: 0.6rem;
   }
 /* ----------------------------------------------main-content-css-starts-here------------------------------- */
 .main-content-container{

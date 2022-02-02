@@ -4,7 +4,8 @@
 .round-image-container,
 .square-image-container,
 .input-container,
-.input-validation-container
+.input-validation-container,
+.text-util-container
 {
     display:flex;
     flex-wrap: wrap;
