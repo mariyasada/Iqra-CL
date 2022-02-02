@@ -1,0 +1,42 @@
+.navbar-container,
+.navbar-with-searchbox-container
+{
+    height: auto;
+    min-width:50vw;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px var(--dark-stone);
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+.logo-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-image img
+{
+    height: 7rem;
+    width: 7rem;
+}
+.nav-pills
+{
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap:3rem;
+    font-weight: 600;
+}
+.input-searchbox
+{
+    padding: 0.5rem;
+    margin:1rem;
+    border: 2px solid var(--light-stone);
+}
+
+
