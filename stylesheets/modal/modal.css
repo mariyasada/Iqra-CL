@@ -1,0 +1,34 @@
+.modal-container,
+.simple-modal-container
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.modal-container
+{
+    height: auto;
+    min-width:40vw;
+    background:linear-gradient(var(--light-teal),var(--white-color));
+    box-shadow: 2px 2px 4px var(--ex-light-purple);
+}
+.simple-modal-container
+{
+    height:auto;
+    min-width:25vw;
+    box-shadow: 2px 2px 4px var(--light-stone);
+}
+.modal-body
+{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.modal-footer
+{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    gap:2rem;
+    padding:2rem;
+    width:100%;
+}

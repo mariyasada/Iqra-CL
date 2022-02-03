@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Utilities File</title>
+    <title>Modal File</title>
     <link rel="stylesheet" href="/stylesheets/main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,11 +91,11 @@
                             <a href="/htmlFiles/input.html">Input</a>
                         </li>
 
-                        <li class="sidebar-list-item sidebar-component-list component-active">
+                        <li class="sidebar-list-item sidebar-component-list">
                             <a href="/htmlFiles/textUtil.html">Text Utilities</a>
                         </li>
 
-                        <li class="sidebar-list-item sidebar-component-list">
+                        <li class="sidebar-list-item sidebar-component-list ">
                             <a href="/htmlFiles/lists.html">Lists</a>
                         </li>
 
@@ -103,7 +103,7 @@
                             <a href="/htmlFiles/navbar.html">Navigation</a>
                         </li>
 
-                        <li class="sidebar-list-item sidebar-component-list">
+                        <li class="sidebar-list-item sidebar-component-list component-active">
                             <a href="/htmlFiles/modal.html">Modal</a>
                         </li>
 
@@ -112,73 +112,90 @@
 <!--------------------------------  side bar ends here-------------main content starts here--------------------------------- -->
       <section class="main-content-container">
                 <div class="section1-container">
-                            <h2 class="section-heading">
-                                <a href="#">Text Utilities </a>
-                            </h2>
+                    <h2 class="section-heading">
+                        <a href="#modal">Modal</a>
+                    </h2>
 
-                             <p class="section-text-content">
-                                Text utilities are used for text alignment, styles and overflow things.
-                             </p>
+                     <p class="section-text-content">
+                        A modal (also called a modal window or lightbox) is a web page element that displays in front of and deactivates all other page content. ... Modals are often used to direct users' attention to an important action or piece of information on a website or application.
+                     </p>
 
-                           <hr>
-                               <h3 class="section-sub-heading">Types of Text Utilities</h3>
-                           <hr>
+                   <hr>
+                       <h3 class="section-sub-heading">Type of Modal</h3>
+                   <hr>
 
-                    <p class="section-text-content"> We are using different types of text in web designing like h1,h2 and diffrent size of text. IQRA UI includes diffrent size of text what you have to do is just add the class of that text into your element. </p>
-        
-                <!--  --------------------------------Input container---------------------------------- -->
-              <div class="component-type-flex-container">
-                    
-                        <h3 class="section-second-sub-heading">Text</h3>
+            <p class="section-text-content">If you want to use the modal of IQRA UI then add class modal-container and below code to element.</p>
 
-                        <p class="sub-text-content">In application designing we are using different types of heading and text. Here are the example of Iqra UI's text utilities class. If you want a large heading then add text-size-lg class to element and if you want bold heading then add text-bold class.</p>
+        <!--  --------------------------------Modal container---------------------------------- -->
+      <div class="component-type-flex-container">
+                  
+                        <div class="modal-container border-round">
+                            <div class="modal-body">
+                                    <h2 class="modal-heading">Confirmation</h2>
+                                    <p class="modal-detail">Are you sure you want to delete your account? This action cannot be undone and you will be
+                                        unable to recover any data.
+                                    </p>
+                                </div>
 
-                                <div class="text-util-container">
-                                        <div class="text-size-xl text-bold">This is extra large heading with bold weight.</div>  
-                                        <div class=" text-size-xl">This is extra large heading without bold weight.</div> 
-                                        <div class=" text-size-lg">This is large heading without bold weight.</div>
-                                        <div class=" text-size-md">This is medium text without bold weight.</div>
-                                        <div class=" text-size-sm text-with-light-weight">This is small text with light weight.</div>
-                                        <div class=" text-size-md gray-text text-bold">This is medium gray text with bold weight.</div>
-                                     <span class="text-center"> <div class="text-size-md">This is center text.</div></span> 
-                                     <span class="text-left"> <div class="text-size-md">This is center text.</div></span> 
-                                     <span class="text-right"> <div class="text-size-md">This is center text.</div></span> 
-                                     <div class=" text-size-md text-uppercase">This is medium uppercase text.</div>
-                                     <div class=" text-size-md text-spacing">This is medium text with spacing .</div>
-                                 </div>
+                                <div class="modal-footer">
+                                <span><button class="btn btn-secondary border-round">Cancel</button></span> 
+                                    <span><button class="btn btn-danger border-round">Yes, delete it!</button></span>
+                                </div>
 
-<!------------------------------ code of Text Utilities---------------------------------------------- -->
-       
-                <div class="section1-container">
-                                <h2 class="section-heading section-code-example-container">
-                                    <a href="">Code of Text Utilities</a>
-                                    <i class="fas fa-code" id ="TextUt-code-btn"></i>
-                                </h2>
+                        </div>
+       <!-- ----------------------------------------simple Modal---------------- -->
+                        <div class="simple-modal-container border-round">
+                                    <div class="modal-body">
+                                            <h2 class="modal-heading">Use location Service?</h2>
+                                            <p class="modal-detail">Let us help apps determine your location.This means sending anonymus loaction data to us, even when no data apps are running
+                                            </p>
+                                    </div>
 
-                                <div class="code-snippet" id="TextUt-div-code"> 
-                                    
-                                    <iframe class="code-example"
-                                            src="https://www.thiscodeworks.com/embed/61fa2bcab783be0015bbae35" 
-                                            style="width: 100%; height: 255px;" frameborder="0">
-                                    </iframe>                 
-                                
-                            </div>   
-                </div>
-                <!-------------------------------------------------  -->
+                                    <div class="modal-footer">
+                                        <span><button class="btn btn-secondary border-round">DISAGREE</button></span> 
+                                        <span><button class="btn btn-primary border-round">AGREE</button></span>
+                                    </div>
+                        </div>
+             
+     </div>
+</div>
+<!------------------------------ code of Modal---------------------------------------------- -->
 
-         </section>
-    </div>
+        <div class="section1-container">
+                        <h2 class="section-heading section-code-example-container">
+                            <a href="">Code of Modal</a>
+                            <i class="fas fa-code" id ="modal-code-btn"></i>
+                        </h2>
+
+                        <div class="code-snippet" id="modal-div-code"> 
+                            
+                            <iframe  class="code-example"
+                                    src="https://www.thiscodeworks.com/embed/61fa90d6b783be0015bbaec8" 
+                                    style="width: 100%; height: 229px;" frameborder="0">
+                            </iframe>
+
+                            <iframe  class="code-example"
+                                    src="https://www.thiscodeworks.com/embed/61fa9145b783be0015bbaec9" 
+                                    style="width: 100%; height: 229px;" frameborder="0">
+                            </iframe>
+            
+                        </div>   
+        </div>
+ <!-----------------------------------------------------------------------  -->
+
+ </section>
+</div>
 <!-- ---------------------------------------------------------javascript functionality------------------------------- -->
- <script>
-const TextUtCodeBtn = document.querySelector("#TextUt-code-btn");
-const TextUtCodeDiv = document.querySelector("#TextUt-div-code");
+<script>
+const modalCodeBtn = document.querySelector("#modal-code-btn");
+const modalCodeDiv = document.querySelector("#modal-div-code");
 
-TextUtCodeBtn.addEventListener("click",() =>{
+modalCodeBtn.addEventListener("click",() =>{
 console.log("clicked");
- TextUtCodeDiv .style.display =="block" ? TextUtCodeDiv .style.display ="none": TextUtCodeDiv .style.display ="block";
-                    });
+modalCodeDiv .style.display =="block" ? modalCodeDiv .style.display ="none": modalCodeDiv .style.display ="block";
+            });
 
- </script>
+</script>
 
 </body>
 </html>
