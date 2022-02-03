@@ -14,7 +14,8 @@
 .modal-container,
 .simple-modal-container,
 .all-rating-container,
-.all-toast-container
+.all-toast-container,
+.grid-component-container
 
 {
     display:flex;
