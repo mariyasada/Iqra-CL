@@ -1,3 +1,9 @@
+.modal-component-container
+{
+    max-height: 80vh;
+    min-width: 60vw;
+}
+
 .modal-container,
 .simple-modal-container
 {
@@ -5,11 +11,10 @@
     flex-flow: row wrap;
     align-items: center;
 }
-
 .modal-container
 {
     height: auto;
-    max-width:40vw;
+    min-width:40vw;
     background:linear-gradient(var(--light-teal),var(--white-color));
     box-shadow: 2px 2px 4px var(--ex-light-purple);
     /* color:var(--white-color); */
@@ -17,9 +22,8 @@
 .simple-modal-container
 {
     height:auto;
-    max-width:25vw;
+    min-width:25vw;
     box-shadow: 2px 2px 4px var(--light-stone);
-
 }
 .modal-body
 {
