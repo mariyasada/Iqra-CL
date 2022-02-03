@@ -1,0 +1,44 @@
+.toast-container,
+.simple-toast-container
+{
+    display: flex;
+    max-width: 80vw;
+    min-height:2rem;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.simple-toast-container
+{
+    color: var(--dark-cyan);
+}
+.bg-blue
+{
+    background-color: var(--light-sky);
+}
+.fc-green
+{
+    color: var(--medium-green);
+}
+.bg-red
+{
+    background-color: var(--light-rose);
+}
+.fc-red
+{
+    color: var(--red-color);
+}
+.button-icon-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+.bg-with-shadow
+{
+    border-radius: 1.7rem;
+    box-shadow: 2px 2px 4px var(--light-stone);
+}

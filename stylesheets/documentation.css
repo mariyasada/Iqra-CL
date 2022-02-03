@@ -13,7 +13,8 @@
 .navbar-component-container,
 .modal-container,
 .simple-modal-container,
-.all-rating-container
+.all-rating-container,
+.all-toast-container
 
 {
     display:flex;
