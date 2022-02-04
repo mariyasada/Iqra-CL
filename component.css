@@ -217,10 +217,10 @@
 
     .sidebar-container{
        font-size: 1rem;
-       cursor: pointer;
        margin-left:0;
        padding: 0.3rem;
-       width: 40%;
+       /* width: 40%; */
+       grid-column: 1/2;
        gap:5px; 
     }
     .sidebar-list-item
