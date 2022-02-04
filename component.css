@@ -219,7 +219,6 @@
        font-size: 1rem;
        margin-left:0;
        padding: 0.3rem;
-       /* width: 40%; */
        grid-column: 1/2;
        gap:5px; 
     }
