@@ -6,7 +6,7 @@
  ## Installation 
  You can directly add the css file in your html file usimg the following link tag
 
- [link to css] https://iqra-ui.netlify.app/main.css
+ [link to css] https://iqra-ui.netlify.app/stylesheets/main.css
 
 <
 link rel=”stylesheet”
