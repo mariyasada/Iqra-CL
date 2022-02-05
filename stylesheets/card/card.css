@@ -64,9 +64,9 @@
 }
 button
 {
-    width:95%;
+    min-width:100%;
     display: inline-block;
-    margin: 0.3rem 0.7rem;    
+    margin: 0.5rem auto;    
 }
 .sold-out-badge
 {
