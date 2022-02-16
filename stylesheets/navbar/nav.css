@@ -38,5 +38,20 @@
     margin:1rem;
     border: 2px solid var(--light-stone);
 }
+/* media query */
+@media only screen and (min-width:300px) and (max-width:900px) {
+    body {
+        height: 100%;
+        width: 100%;
+      }
+      .navbar-container,
+      .navbar-with-searchbox-container
+      {
+          width:auto;
+          display: inline-flex;
+          font-size: 1.3rem;
+      }
+      
+    }
 
 

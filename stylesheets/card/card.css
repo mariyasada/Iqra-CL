@@ -64,9 +64,9 @@
 }
 button
 {
-    width:95%;
+    min-width:100%;
     display: inline-block;
-    margin: 0.3rem 0.7rem;    
+    margin: 0.5rem auto;    
 }
 .sold-out-badge
 {
@@ -153,7 +153,19 @@ button
     max-width: 22rem;
     height: auto;
 }
+/* media query */
+@media only screen and (min-width:300px) {
+    body {
+        height: 100%;
+        width: 100%;
+      }
+      .button-container
+{
+    display: flex;
+    flex-direction: column;
+}
 
+    }
 
 
 
