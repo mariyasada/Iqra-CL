@@ -6,17 +6,12 @@
     max-width: 80vw;
     max-height: 100%;
     border-radius: 2rem;
-    padding: 1rem 3rem;
-    /* border: 2px solid var(--dark-stone); */
+    padding: 1rem 3rem;    
     cursor: pointer;
     flex: 1;
     gap:2rem;
 }
-/* .section-second-sub-heading
-{
-    font-size: 1.6rem;
-    color: var(--light-coco);
-} */
+
 .image-avatar, 
 .image-avatars-with-outline,
 .text-avatar-container
@@ -24,10 +19,10 @@
     display:flex;
     flex-wrap: wrap;
     min-width:50vw;
-    padding: 0.6rem;
+    padding: 0.8rem;
     gap:2.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;   
     flex:1;
 }
 .brdr-purple
