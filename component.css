@@ -175,8 +175,8 @@
 .section-text {
     font-size: 1.9rem;
     max-width: 90vw;
-    position: sticky;
-    top: 7rem;
+    /* position: sticky;
+    top: 7rem; */
     line-height: 3rem;
 }
 
