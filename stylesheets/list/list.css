@@ -1,32 +1,31 @@
 @import url(/stylesheets/card/card.css);
-.list-container
-{
-    max-width:15rem;
-    height:auto;
+.list-container {
+    max-width: 15rem;
+    height: auto;
     font-size: 2rem;
     margin-top: -3rem;
     background-color: var(--ex-light-gray);
     border-radius: 0.2rem;
-    padding: 0.7rem; 
+    padding: 0.7rem;
 }
-.ordered-list-container .list-container{
+
+.ordered-list-container .list-container {
     margin-top: 1rem;
 }
-.circle-style
-{
-    list-style-type:circle ;
+
+.circle-style {
+    list-style-type: circle;
 }
-.square-style
-{
-    list-style-type:square;
+
+.square-style {
+    list-style-type: square;
 }
-.none-style
-{
-    list-style-type:none;
+
+.none-style {
+    list-style-type: none;
 }
-.list-container.ol-list
-{
+
+.list-container.ol-list {
     padding: 0.2rem;
     background-color: var(--ex-light-gray);
-    
 }

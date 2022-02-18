@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,167 +9,151 @@
     <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="/path/to/font-awesome/css/font-awesome.min.css"
-      type="text/css"
-    />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/path/to/font-awesome/css/font-awesome.min.css" type="text/css" />
+</head>
+
+<body>
     <div class="grid-container">
-      <!---------------------- nav bar --------------- -->
-      <div class="navbar">
-        <div class="logo-container">
-          <div class="logo">
-            <img class="logo-image" src="/images/iqra.png" />
-          </div>
+        <!---------------------- nav bar --------------- -->
+        <div class="navbar">
+            <div class="logo-container">
+                <div class="logo">
+                    <img class="logo-image" src="/images/iqra.png" />
+                </div>
 
-          <div class="logo-text">UI</div>
+                <div class="logo-text">UI</div>
+            </div>
+            <!---------------------nav items------------------------------------------------ -->
+            <div class="nav-content-container">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="/index.html">Getting started</a>
+                    </li>
+
+                    <li class="nav-item nav-item-active">
+                        <a href="/components.html">Component</a>
+                    </li>
+                </ul>
+            </div>
+            <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
+            <div class="nav-social-media-icons-container">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="https://github.com/mariyasada">
+                            <span class="nav-icon"><i class="fab fa-github"></i></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://twitter.com/sada_mariya">
+                            <span class="nav-icon"><i class="fab fa-twitter"></i></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/mariya-sada-1b6443139">
+                            <span class="nav-icon"><i class="fab fa-linkedin"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!---------------------nav items------------------------------------------------ -->
-        <div class="nav-content-container">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="/index.html">Getting started</a>
-            </li>
+        <!------------------------- --------------------------nav bar ends here-------------------------------------------------------------------------------- -->
+        <!-- ------------------------------------------------SIDEBAR STARTS FROM HERE------------------------------------------------ -->
+        <div class="sidebar-container sidebar-content">
+            <ul class="sidebar-items">
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/components.html">Alerts</a>
+                </li>
 
-            <li class="nav-item nav-item-active">
-              <a href="/components.html">Component</a>
-            </li>
-          </ul>
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/avatar.html">Avatars</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/badges.html">Badges</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/button.html">Buttons</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/card.html">Card</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/image.html">Image</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/input.html">Input</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/textUtil.html">Text Utilities</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/lists.html">Lists</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/navbar.html">Navigation</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list component-active">
+                    <a href="/htmlFiles/modal.html">Modal</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/rating.html">Rating</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/toast.html">Toast</a>
+                </li>
+
+                <li class="sidebar-list-item sidebar-component-list">
+                    <a href="/htmlFiles/grid.html">Grid</a>
+                </li>
+            </ul>
         </div>
-        <!------------------------------ nav bar social media icons------------------------------------------------------------------------------- -->
-        <div class="nav-social-media-icons-container">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="https://github.com/mariyasada">
-                <span class="nav-icon"><i class="fab fa-github"></i></span>
-              </a>
-            </li>
+        <!--------------------------------  side bar ends here-------------main content starts here--------------------------------- -->
+        <section class="main-content-container">
+            <div class="section1-container">
+                <h2 class="section-heading">
+                    <a href="#modal">Modal</a>
+                </h2>
 
-            <li class="nav-item">
-              <a href="https://twitter.com/sada_mariya">
-                <span class="nav-icon"><i class="fab fa-twitter"></i></span>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="https://www.linkedin.com/in/mariya-sada-1b6443139">
-                <span class="nav-icon"><i class="fab fa-linkedin"></i></span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!------------------------- --------------------------nav bar ends here-------------------------------------------------------------------------------- -->
-      <!-- ------------------------------------------------SIDEBAR STARTS FROM HERE------------------------------------------------ -->
-      <div class="sidebar-container sidebar-content">
-        <ul class="sidebar-items">
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/components.html">Alerts</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/avatar.html">Avatars</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/badges.html">Badges</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/button.html">Buttons</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/card.html">Card</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/image.html">Image</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/input.html">Input</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/textUtil.html">Text Utilities</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/lists.html">Lists</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/navbar.html">Navigation</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list component-active">
-            <a href="/htmlFiles/modal.html">Modal</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/rating.html">Rating</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/toast.html">Toast</a>
-          </li>
-
-          <li class="sidebar-list-item sidebar-component-list">
-            <a href="/htmlFiles/grid.html">Grid</a>
-          </li>
-        </ul>
-      </div>
-      <!--------------------------------  side bar ends here-------------main content starts here--------------------------------- -->
-      <section class="main-content-container">
-        <div class="section1-container">
-          <h2 class="section-heading">
-            <a href="#modal">Modal</a>
-          </h2>
-
-          <p class="section-text-content">
-            A modal (also called a modal window or lightbox) is a web page
-            element that displays in front of and deactivates all other page
-            content. ... Modals are often used to direct users' attention to an
-            important action or piece of information on a website or
-            application.
-          </p>
-
-          <hr />
-          <h3 class="section-sub-heading">Type of Modal</h3>
-          <hr />
-
-          <p class="section-text-content">
-            If you want to use the modal of IQRA UI then add class
-            modal-container and below code to element.
-          </p>
-
-          <!--  --------------------------------Modal container---------------------------------- -->
-          <div class="component-type-flex-container">
-            <div class="modal-container border-round">
-              <div class="modal-body">
-                <h2 class="modal-heading">Confirmation</h2>
-                <p class="modal-detail">
-                  Are you sure you want to delete your account? This action
-                  cannot be undone and you will be unable to recover any data.
+                <p class="section-text-content">
+                    A modal (also called a modal window or lightbox) is a web page element that displays in front of and deactivates all other page content. ... Modals are often used to direct users' attention to an important action or piece of information on a website or
+                    application.
                 </p>
-              </div>
 
-              <div class="modal-footer">
-                <span
-                  ><button class="btn btn-secondary border-round">
+                <hr />
+                <h3 class="section-sub-heading">Type of Modal</h3>
+                <hr />
+
+                <p class="section-text-content">
+                    If you want to use the modal of IQRA UI then add class modal-container and below code to element.
+                </p>
+
+                <!--  --------------------------------Modal container---------------------------------- -->
+                <div class="component-type-flex-container">
+                    <div class="modal-container border-round">
+                        <div class="modal-body">
+                            <h2 class="modal-heading">Confirmation</h2>
+                            <p class="modal-detail">
+                                Are you sure you want to delete your account? This action cannot be undone and you will be unable to recover any data.
+                            </p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <span><button class="btn btn-secondary border-round">
                     Cancel
                   </button></span
                 >

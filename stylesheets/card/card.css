@@ -1,117 +1,118 @@
 /*  */
+
 .card,
 .card-for-ecommerce,
 .dismiss-card,
 .text-only-card,
 .card-text-overlay,
-.vertical-card
-{
+.vertical-card {
     display: flex;
     flex-direction: column;
-    max-width:29rem;
+    max-width: 29rem;
     border: 0.2rem solid var(--light-stone);
     height: auto;
 }
-.pd-1
-{
-    padding:1rem;
+
+.pd-1 {
+    padding: 1rem;
 }
-.card-image-holder 
-{
+
+.card-image-holder {
     width: 100%;
-    height:19rem;
+    height: 19rem;
     padding: 0;
-    margin:0;
+    margin: 0;
     position: relative;
 }
-.card-image-holder img{
+
+.card-image-holder img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
-.badge-of-card img
-{
+
+.badge-of-card img {
     height: 5rem;
-    width:5rem;
+    width: 5rem;
     border-radius: 50%;
     position: absolute;
-    border:0.2rem solid var(--dark-stone);
-    left:25.5rem;
-    top:4rem;
+    border: 0.2rem solid var(--dark-stone);
+    left: 25.5rem;
+    top: 4rem;
 }
-.card-title
-{
-    font-size:2rem ;
+
+.card-title {
+    font-size: 2rem;
     padding: 0.5rem;
     font-weight: bold;
 }
-.card-detail
-{
+
+.card-detail {
     font-size: 1.6rem;
     padding: 0.5rem;
     font-weight: 500;
 }
-.price
-{
+
+.price {
     font-size: 2rem;
     font-weight: bold;
     text-decoration: line-through;
     display: inline;
     padding-left: 1rem;
 }
-.discount
-{
+
+.discount {
     font-size: 2rem;
 }
-button
-{
-    min-width:100%;
+
+button {
+    min-width: 100%;
     display: inline-block;
-    margin: 0.5rem auto;    
+    margin: 0.5rem auto;
 }
-.sold-out-badge
-{
-  width:8rem;
-  font-size: 1.6rem;
-  background-color:var(--dark-stone) ;
-  color: white;
-  text-align: center;
-  border-radius: 3px;
-  position: absolute;
-  top:4rem;
-  left:-1rem;
-}
-.badge-dismiss-button
-{
-    font-size: 3.5rem;
-    color:red;
-    border-radius: 3rem;
-    width:5rem;
+
+.sold-out-badge {
+    width: 8rem;
+    font-size: 1.6rem;
+    background-color: var(--dark-stone);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
     position: absolute;
-    right:0rem;
-    top:0.5rem;    
+    top: 4rem;
+    left: -1rem;
 }
-.card-sub-title
-{
+
+.badge-dismiss-button {
+    font-size: 3.5rem;
+    color: red;
+    border-radius: 3rem;
+    width: 5rem;
+    position: absolute;
+    right: 0rem;
+    top: 0.5rem;
+}
+
+.card-sub-title {
     font-size: 1.4rem;
     font-weight: 500;
     padding-left: 0.7rem;
 }
-.container-of-titles
-{
+
+.container-of-titles {
     display: flex;
     flex-direction: column;
     padding-left: 0.5rem;
 }
-.card-text-overlay
-{
+
+.card-text-overlay {
     position: relative;
     font-size: 2rem;
     opacity: 0.7;
 }
-.text-over-lay
-{
-    position:absolute;
-    top:16rem;
+
+.text-over-lay {
+    position: absolute;
+    top: 16rem;
     bottom: 16rem;
     left: 0;
     right: 0;
@@ -124,50 +125,46 @@ button
     border-radius: 1rem;
     color: white;
 }
-.card-with-shadow
-{
+
+.card-with-shadow {
     box-shadow: 2px 2px 4px var(--light-stone);
     border-radius: 0.5rem;
-    border:2px solid var(--dark-stone);
+    border: 2px solid var(--dark-stone);
 }
-.horizontal-card
-{
-    display:flex;
+
+.horizontal-card {
+    display: flex;
     flex-direction: row;
-    max-width:50rem;
-    height:auto;
-    gap:1.3rem;
+    max-width: 50rem;
+    height: auto;
+    gap: 1.3rem;
     box-shadow: 2px 2px 4px var(--light-stone);
 }
-.horizontal-card .card-image
-{
-    height:100%;
-    min-width:14rem;
+
+.horizontal-card .card-image {
+    height: 100%;
+    min-width: 14rem;
 }
-.button-container
-{
+
+.button-container {
     display: flex;
 }
-.vertical-card
-{
+
+.vertical-card {
     max-width: 22rem;
     height: auto;
 }
+
+
 /* media query */
-@media only screen and (min-width:300px) {
+
+@media only screen and (min-width: 300px) {
     body {
         height: 100%;
         width: 100%;
-      }
-      .button-container
-{
-    display: flex;
-    flex-direction: column;
-}
-
     }
-
-
-
-
-
+    .button-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
