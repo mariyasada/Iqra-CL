@@ -154,7 +154,8 @@
     z-index: 18;
 }
 
-.section1-container .section2-container .section3-container {
+.section1-container .section2-container,
+.section3-container {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
