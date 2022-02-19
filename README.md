@@ -59,4 +59,6 @@ https://user-images.githubusercontent.com/77275100/154806731-2ba650ef-7036-431d-
 
 ## Some ScreenShot Of component
 ![button](https://user-images.githubusercontent.com/77275100/154806761-d75f3ac5-33d5-4fa7-8808-286faa7a004f.PNG)
+
+### Alert component
 ![alert](https://user-images.githubusercontent.com/77275100/154806775-c6e12175-95bb-4906-be9a-831dd2705bcf.PNG)
