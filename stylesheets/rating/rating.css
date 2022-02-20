@@ -1,47 +1,46 @@
-.rating-with-icon
-{
-    height:auto;
-    max-width:40vw;
+.rating-with-icon {
+    height: auto;
+    max-width: 40vw;
     font-size: 2rem;
     display: flex;
-    gap:1rem;
-    color:var(--white-color);
+    gap: 1rem;
+    color: var(--white-color);
     padding: 0.5rem;
 }
-.fc-black
-{
-    color:black;
+
+.fc-black {
+    color: black;
 }
-.checked
-{
-    color:var(--light-yellow);
+
+.checked {
+    color: var(--light-yellow);
 }
-.bg-green
-{
+
+.bg-green {
     background-color: var(--medium-green);
 }
-.bg-red
-{
+
+.bg-red {
     background-color: var(--dark-rose);
 }
-.bg-yellow
-{
+
+.bg-yellow {
     background-color: var(--dark-yellow);
 }
-.card-body
-{
+
+.card-body {
     position: relative;
 }
-.rating-badge
-{
-    max-width:20rem;
-    display:flex;
+
+.rating-badge {
+    max-width: 20rem;
+    display: flex;
     position: absolute;
-    left:14rem;
-    top:9.5rem;
+    left: 14rem;
+    top: 9.5rem;
 }
-.rating-badge .rating-with-icon
-{
+
+.rating-badge .rating-with-icon {
     font-size: 1.2rem;
     text-align: center;
 }

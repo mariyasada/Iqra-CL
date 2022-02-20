@@ -1,70 +1,64 @@
-.input-label
-{
+.input-label {
     text-align: start;
-    width:100%;
+    width: 100%;
     display: inline-block;
     font-size: 2rem;
     font-weight: bold;
-    color:var(--dark-cyan);
+    color: var(--dark-cyan);
 }
 
-.input-textbox
-{
-    
+.input-textbox {
     display: inline-block;
-    max-width:100%;
+    max-width: 100%;
     font-weight: bold;
     border-radius: 0.4rem;
-    border:2px solid var(--dark-stone);
-    padding: 1rem; 
-    outline: none; 
+    border: 2px solid var(--dark-stone);
+    padding: 1rem;
+    outline: none;
 }
 
-.error-validation
-{
+.error-validation {
     border: 1px solid var(--red-color);
-    
 }
-.input-validation-container
-{
+
+.input-validation-container {
     position: relative;
     margin-top: 1.5rem;
 }
-.error-message
-{
+
+.error-message {
     color: var(--red-color);
     font-size: 1.5rem;
     position: absolute;
-    top:10rem;
-    left:1rem;  
+    top: 10rem;
+    left: 1rem;
 }
-.primary-message
-{
+
+.primary-message {
     color: var(--dark-sky);
     font-size: 1.5rem;
     position: absolute;
-    top:10rem;
-    left:1rem;
+    top: 10rem;
+    left: 1rem;
 }
-.success-message
-{
+
+.success-message {
     color: var(--medium-green);
     font-size: 1.5rem;
     position: absolute;
-    top:10rem;
-    left:1rem;
+    top: 10rem;
+    left: 1rem;
 }
-.success-validation
-{
+
+.success-validation {
     border: 2px solid var(--medium-green);
 }
 
-.input-textbox:focus{
+.input-textbox:focus {
     border: 3px solid var(--dark-blue);
     /* outline: none; */
 }
 
-.primary-validation
-{
+.primary-validation {
     border: 2px solid var(--dark-sky);
 }

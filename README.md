@@ -31,9 +31,7 @@ For fontawesome icons. Directly add the following link tag to your project.
 * JAVASCRIPT
 
 ## Components Included
-
 <hr>
-
 - Alert
 - Avatar
 - Badges
@@ -62,3 +60,4 @@ https://user-images.githubusercontent.com/77275100/154806731-2ba650ef-7036-431d-
 
 ### Alert component
 ![alert](https://user-images.githubusercontent.com/77275100/154806775-c6e12175-95bb-4906-be9a-831dd2705bcf.PNG)
+

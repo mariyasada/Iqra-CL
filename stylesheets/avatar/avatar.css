@@ -1,187 +1,168 @@
 @import url(../main.css);
-.component-type-flex-container
-{
+.component-type-flex-container {
     display: flex;
     flex-direction: column;
     max-width: 80vw;
     max-height: 100%;
     border-radius: 2rem;
     padding: 1rem 3rem;
-    /* border: 2px solid var(--dark-stone); */
     cursor: pointer;
     flex: 1;
-    gap:2rem;
+    gap: 2rem;
 }
-/* .section-second-sub-heading
-{
-    font-size: 1.6rem;
-    color: var(--light-coco);
-} */
-.image-avatar, 
+
+.image-avatar,
 .image-avatars-with-outline,
-.text-avatar-container
-{
-    display:flex;
+.text-avatar-container {
+    display: flex;
     flex-wrap: wrap;
-    min-width:50vw;
-    padding: 0.6rem;
-    gap:2.5rem;
+    min-width: 50vw;
+    padding: 0.8rem;
+    gap: 2.5rem;
     align-items: center;
     justify-content: space-between;
-    flex:1;
+    flex: 1;
 }
-.brdr-purple
-{
-   border: 4px solid var(--dark-purple);
+
+.brdr-purple {
+    border: 4px solid var(--dark-purple);
 }
-.brdr-blue
-{
+
+.brdr-blue {
     border: 4px solid var(--light-blue);
 }
-.brdr-green
-{
+
+.brdr-green {
     border: 4px solid var(--light-green);
 }
 
-.avatar
-{
-    border-radius:50%;
+.avatar {
+    border-radius: 50%;
     object-fit: cover;
 }
-.avatar-xl ,
-.text-avatar-xl
-{
-    height:13rem;
+
+.avatar-xl,
+.text-avatar-xl {
+    height: 13rem;
     width: 13rem;
 }
+
 .avatar-lg,
-.text-avatar-lg
-{
-    height:10rem;
-    width:10rem;
+.text-avatar-lg {
+    height: 10rem;
+    width: 10rem;
 }
 
 .avatar-md,
-.text-avatar-md
-{
-    height:7rem;
-    width:7rem;
+.text-avatar-md {
+    height: 7rem;
+    width: 7rem;
 }
+
 .avatar-sm,
-.text-avatar-sm
-{
-    height:5rem;
-    width:5rem;
+.text-avatar-sm {
+    height: 5rem;
+    width: 5rem;
 }
+
 .avatar-xsm,
-.text-avatar-xsm
-{
-    height:3rem;
-    width:3rem;
+.text-avatar-xsm {
+    height: 3rem;
+    width: 3rem;
 }
+
 .text-avatar-xl,
-.text-avatar-sm ,
+.text-avatar-sm,
 .text-avatar-lg,
 .text-avatar-md,
-.text-avatar-xsm
-{
+.text-avatar-xsm {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:var(--medium-teal);
+    background-color: var(--medium-teal);
     color: var(--white-color);
 }
-.text-avatar-xl
-{
+
+.text-avatar-xl {
     font-size: 5rem;
 }
-.text-avatar-lg
-{
+
+.text-avatar-lg {
     font-size: 3rem;
 }
-.text-avatar-md
-{
+
+.text-avatar-md {
     font-size: 2rem;
 }
-.text-avatar-sm
-{
+
+.text-avatar-sm {
     font-size: 1rem;
 }
-.text-avatar-xsm
-{
+
+.text-avatar-xsm {
     font-size: 1rem;
 }
-.code-snippet
-{
+
+.code-snippet {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     display: none;
-    gap:2rem;
+    gap: 2rem;
 }
-.code-snippet img
-{   
+
+.code-snippet img {
     /* display:none; */
-    max-height:80vh;
-    max-width:60vw;
+    max-height: 80vh;
+    max-width: 60vw;
     object-fit: cover;
 }
+
+
 /* media query */
-@media only screen and (min-width:500px )and(max-width:1045px) {
+
+@media only screen and (min-width: 500px) and(max-width:1045px) {
     body {
         height: 100%;
         width: 100%;
-      }
-      .navbar
-      {
-          width: 100%;
-      }
-
-     .text-avatar-container,
-      .image-avatar,
-      .image-avatars-with-outline
-      {
-          width:40%;
-          gap:0.3rem;
-          flex-shrink: 2;
-          display: flex;
-          
-      }
-.avatar-xl ,
-.text-avatar-xl
-{
-    height:5rem;
-    width:5rem;
-}
-.avatar-lg,
-.text-avatar-lg
-{
-    height:4rem;
-    width:4rem;
-}
-
-.avatar-md,
-.text-avatar-md
-{
-    height:3rem;
-    width:3rem;
-}
-.avatar-sm,
-.text-avatar-sm
-{
-    height:2rem;
-    width:2rem;
-}
-.avatar-xsm,
-.text-avatar-xsm
-{
-    height:1.5rem;
-    width:1.5rem;
-}
-.code-snippet img
-{
-    width:30%;
-
-}
-
     }
+    .navbar {
+        width: 100%;
+    }
+    .text-avatar-container,
+    .image-avatar,
+    .image-avatars-with-outline {
+        width: 40%;
+        gap: 0.3rem;
+        flex-shrink: 2;
+        display: flex;
+    }
+    .avatar-xl,
+    .text-avatar-xl {
+        height: 5rem;
+        width: 5rem;
+    }
+    .avatar-lg,
+    .text-avatar-lg {
+        height: 4rem;
+        width: 4rem;
+    }
+    .avatar-md,
+    .text-avatar-md {
+        height: 3rem;
+        width: 3rem;
+    }
+    .avatar-sm,
+    .text-avatar-sm {
+        height: 2rem;
+        width: 2rem;
+    }
+    .avatar-xsm,
+    .text-avatar-xsm {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .code-snippet img {
+        width: 30%;
+    }
+}
