@@ -9,7 +9,8 @@
     padding: 0.7rem;
 }
 
-.ordered-list-container .list-container {
+.ordered-list-container .list-container,
+.Unordered-list-container .list-container {
     margin-top: 1rem;
 }
 
