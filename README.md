@@ -31,9 +31,7 @@ For fontawesome icons. Directly add the following link tag to your project.
 * JAVASCRIPT
 
 ## Components Included
-
 <hr>
-
 - Alert
 - Avatar
 - Badges
@@ -55,4 +53,11 @@ live link of documentation site [IQRA-UI](https://iqra-ui.netlify.app/)
 
 ## Video of UI
 
-https://user-images.githubusercontent.com/77275100/154806593-01b5997f-9329-44bd-8e28-1447d54968fa.mp4
+https://user-images.githubusercontent.com/77275100/154806731-2ba650ef-7036-431d-a661-56c6737420a8.mp4
+
+## Some ScreenShot Of component
+![button](https://user-images.githubusercontent.com/77275100/154806761-d75f3ac5-33d5-4fa7-8808-286faa7a004f.PNG)
+
+### Alert component
+![alert](https://user-images.githubusercontent.com/77275100/154806775-c6e12175-95bb-4906-be9a-831dd2705bcf.PNG)
+
