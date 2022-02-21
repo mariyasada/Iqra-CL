@@ -26,12 +26,14 @@ For fontawesome icons. Directly add the following link tag to your project.
 ## Technologies Used
 
 <hr>
+
 * HTML
 * CSS
 * JAVASCRIPT
 
 ## Components Included
 <hr>
+
 - Alert
 - Avatar
 - Badges
