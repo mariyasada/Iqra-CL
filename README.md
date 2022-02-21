@@ -37,7 +37,7 @@ For fontawesome icons. Directly add the following link tag to your project.
 - [Alert](https://iqra-ui.netlify.app/components.html)
 - [Avatar](https://iqra-ui.netlify.app/htmlfiles/avatar)
 - [Badges](https://iqra-ui.netlify.app/htmlfiles/badges)
-- [Buttons](https://iqra-ui.netlify.app/htmlfiles/button
+- [Buttons](https://iqra-ui.netlify.app/htmlfiles/button)
 - [Image](https://iqra-ui.netlify.app/htmlfiles/image)
 - [Input](https://iqra-ui.netlify.app/htmlfiles/input)
 - [Grid](https://iqra-ui.netlify.app/htmlfiles/grid)
