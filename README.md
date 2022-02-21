@@ -34,20 +34,20 @@ For fontawesome icons. Directly add the following link tag to your project.
 ## Components Included
 <hr>
 
-- Alert
-- Avatar
-- Badges
-- Buttons
-- Image
-- Input
-- Grid
-- Toast
-- Modal
-- List
-- Text Utilities
-- Card
-- Navigation
-- Ratings
+- [Alert](https://iqra-ui.netlify.app/components.html)
+- [Avatar](https://iqra-ui.netlify.app/htmlfiles/avatar)
+- [Badges](https://iqra-ui.netlify.app/htmlfiles/badges)
+- [Buttons](https://iqra-ui.netlify.app/htmlfiles/button
+- [Image](https://iqra-ui.netlify.app/htmlfiles/image)
+- [Input](https://iqra-ui.netlify.app/htmlfiles/input)
+- [Grid](https://iqra-ui.netlify.app/htmlfiles/grid)
+- [Toast](https://iqra-ui.netlify.app/htmlfiles/toast)
+- [Modal](https://iqra-ui.netlify.app/htmlfiles/modal)
+- [List](https://iqra-ui.netlify.app/htmlfiles/lists)
+- [Text Utilities](https://iqra-ui.netlify.app/htmlfiles/textutil)
+- [Card](https://iqra-ui.netlify.app/htmlfiles/card)
+- [Navigation](https://iqra-ui.netlify.app/htmlfiles/navbar)
+- [Ratings](https://iqra-ui.netlify.app/htmlfiles/rating)
 
 ## Live Link
 
@@ -62,4 +62,10 @@ https://user-images.githubusercontent.com/77275100/154806731-2ba650ef-7036-431d-
 
 ### Alert component
 ![alert](https://user-images.githubusercontent.com/77275100/154806775-c6e12175-95bb-4906-be9a-831dd2705bcf.PNG)
+
+### Component's code
+
+Component's code is place at bottom of the page. After clicking this </> button scroll down the file. you can see the code of component.
+![componet](https://user-images.githubusercontent.com/77275100/154945728-f60eb8ff-0ca7-4ca6-acbd-9fb7f2167ab2.PNG)
+
 
