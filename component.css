@@ -273,3 +273,48 @@
         text-align: justify;
     }
 }
+
+
+
+https://polaris.shopify.com/
+
+https://atlassian.design/
+
+https://material.io/design
+
+https://developer.apple.com/design/
+
+https://www.microsoft.com/design/fluent/#/
+
+https://ant.design/
+
+prefers-reduced-motion
+
+prefers-contrast
+
+prefers-reduced-transparency
+
+prefers-color-scheme
+
+inverted-colors
+
+
+
+
+
+codesanbox
+.discount-price-in-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2rem;
+}
+.discountTag {
+  font-size: 1.2rem;
+  color: blue;
+  position: absolute;
+  top: 5.7rem;
+  right: 4rem;
+}
+ <s className="price">{price}</s>
+                  <p class="discountTag">({discountTag})</p>
