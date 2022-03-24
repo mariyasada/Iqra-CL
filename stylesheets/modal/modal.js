@@ -23,12 +23,3 @@ modalCodeBtn.addEventListener("click", () => {
           : (modalCodeDiv.style.display = "block");
       });
 
-// const modalCodeBtn = document.querySelector("#modal-code-btn");
-//       const modalCodeDiv = document.querySelector("#modal-div-code");
-
-//       modalCodeBtn.addEventListener("click", () => {
-//         console.log("clicked");
-//         modalCodeDiv.style.display == "block"
-//           ? (modalCodeDiv.style.display = "none")
-//           : (modalCodeDiv.style.display = "block");
-//       });
