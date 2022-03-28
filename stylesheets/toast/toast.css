@@ -37,15 +37,22 @@
   gap: 2rem;
 }
 
-.bg-with-shadow {
-  border-radius: 1.7rem;
-  box-shadow: 2px 2px 4px var(--light-stone);
-  display: none;
-  background-color: rgb(102, 100, 100);
-  color: white;
-  z-index: 40;
+#toast-bottom {
+  visibility: hidden;
+  min-width: 20rem;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
   position: fixed;
-  bottom: 0;
-  right: 1rem;
-  width: 30rem;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+#toast-bottom.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
