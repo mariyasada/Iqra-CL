@@ -1,6 +1,5 @@
 .text-size-xl {
   font-size: 3.3rem;
-  margin-bottom: -3px;
 }
 
 .text-bold {
@@ -9,17 +8,14 @@
 
 .text-size-lg {
   font-size: 2.5rem;
-  margin-bottom: -3px;
 }
 
 .text-size-md {
   font-size: 2rem;
-  margin-bottom: -3px;
 }
 
 .text-size-sm {
   font-size: 1.5rem;
-  margin-bottom: -3px;
 }
 
 .text-with-light-weight {
@@ -28,13 +24,11 @@
 
 .gray-text {
   color: var(--dark-stone);
-  margin-bottom: -3px;
 }
 
 .text-center {
   text-align: center;
   margin: auto;
-  margin-bottom: -3px;
 }
 
 .text-left {
@@ -45,20 +39,20 @@
 .text-right {
   text-align: right;
   margin-left: auto;
-  margin-bottom: -3px;
 }
 
 .text-uppercase {
   text-transform: uppercase;
-  margin-bottom: -3px;
 }
 
 .text-spacing {
   letter-spacing: 0.6rem;
-  margin-bottom: -3px;
 }
 .text-util-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+.mbm-3 {
+  margin-bottom: -3px;
 }
