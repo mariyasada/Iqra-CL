@@ -1,0 +1,28 @@
+.cover-page-container {
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  background-color: var(--ex-light-teal);
+}
+.content-container {
+  margin: 18rem 0 0 6rem;
+  width: 40rem;
+  justify-self: center;
+}
+.heading {
+  color: var(--dark-teal);
+  font-size: 4rem;
+}
+.image-container {
+  width: 60rem;
+  height: auto;
+}
+.cover-image {
+  width: 50rem;
+  margin: 7rem 0 0 10rem;
+}
+.content-text {
+  color: var(--dark-teal);
+  margin-bottom: 4rem;
+  font-weight: bold;
+}

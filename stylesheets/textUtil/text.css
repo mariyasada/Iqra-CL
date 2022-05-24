@@ -1,50 +1,59 @@
 .text-size-xl {
-    font-size: 3.3rem;
+  font-size: 3.3rem;
 }
 
 .text-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .text-size-lg {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .text-size-md {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .text-size-sm {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .text-with-light-weight {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .gray-text {
-    color: var(--dark-stone);
+  color: var(--dark-stone);
 }
 
 .text-center {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 .text-left {
-    text-align: left;
-    margin-right: auto;
+  text-align: left;
+  margin-right: auto;
 }
 
 .text-right {
-    text-align: right;
-    margin-left: auto;
+  text-align: right;
+  margin-left: auto;
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .text-spacing {
-    letter-spacing: 0.6rem;
+  letter-spacing: 0.6rem;
+}
+.mtm-3 {
+  margin-bottom: -3px;
+}
+.text-util-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
 }
