@@ -1,50 +1,64 @@
 .text-size-xl {
-    font-size: 3.3rem;
+  font-size: 3.3rem;
+  margin-bottom: -3px;
 }
 
 .text-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .text-size-lg {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
+  margin-bottom: -3px;
 }
 
 .text-size-md {
-    font-size: 2rem;
+  font-size: 2rem;
+  margin-bottom: -3px;
 }
 
 .text-size-sm {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: -3px;
 }
 
 .text-with-light-weight {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .gray-text {
-    color: var(--dark-stone);
+  color: var(--dark-stone);
+  margin-bottom: -3px;
 }
 
 .text-center {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -3px;
 }
 
 .text-left {
-    text-align: left;
-    margin-right: auto;
+  text-align: left;
+  margin-right: auto;
 }
 
 .text-right {
-    text-align: right;
-    margin-left: auto;
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: -3px;
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  margin-bottom: -3px;
 }
 
 .text-spacing {
-    letter-spacing: 0.6rem;
+  letter-spacing: 0.6rem;
+  margin-bottom: -3px;
+}
+.text-util-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
