@@ -51,7 +51,7 @@ For fontawesome icons. Directly add the following link tag to your project.
 
 ## Live Link
 
-live link of documentation site [IQRA-UI]([https://iqra-cl-ui.netlify.app]
+live link of documentation site [IQRA-UI](https://iqra-cl-ui.netlify.app)
 
 ## Video of UI
 
