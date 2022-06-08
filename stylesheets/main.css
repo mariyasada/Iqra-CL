@@ -84,3 +84,9 @@ a {
   font-weight: 700;
   color: var(--dark-rose);
 }
+@media only screen and (max-width: 500px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,225 +1,216 @@
 @import url(./stylesheets/main.css);
 .grid-container {
-    display: grid;
-    grid-template-rows: 100px auto;
-    grid-template-columns: 100px auto;
-    /* grid-template-columns: repeat(6,1fr); */
+  display: grid;
+  grid-template-rows: 100px auto;
+  grid-template-columns: 100px auto;
+  /* grid-template-columns: repeat(6,1fr); */
 }
 
 .navbar {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .logo-container {
-    display: flex;
+  display: flex;
 }
 
 .logo {
-    flex: 1;
+  flex: 1;
 }
 
 .logo-image {
-    height: 7rem;
-    width: 7rem;
+  height: 7rem;
+  width: 7rem;
 }
 
 .logo-text {
-    display: inline;
-    padding: 0px;
-    margin: 0px;
-    font-size: 5rem;
-    font-weight: 500;
-    color: var(--light-teal);
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--light-teal);
 }
-
 
 /* nav var content's CSS started */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    height: 7rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 1px 1px 3px gray;
-    z-index: 10;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 1px 1px 3px gray;
+  z-index: 10;
+  position: relative;
 }
 
 .nav-content-container {
-    position: relative;
-    font-weight: 500;
+  position: relative;
+  font-weight: 500;
 }
 
 .nav-content-container .nav-item:hover {
-    color: var(--light-teal);
+  color: var(--light-teal);
 }
 
 .nav-items {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
 }
 
 .nav-item {
-    font-size: 2rem;
-    margin: 0 1.6rem;
-    padding: 0.6rem;
-    font-weight: 600;
+  font-size: 2rem;
+  margin: 0 1.6rem;
+  padding: 0.6rem;
+  font-weight: 600;
 }
 
 .nav-social-media-icon-container {
-    position: absolute;
-    right: 22rem;
+  position: absolute;
+  right: 22rem;
 }
 
 .nav-icon {
-    font-size: 2.5rem;
-    color: var(--light-teal);
-    font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--light-teal);
+  font-weight: bold;
 }
 
 .nav-icon:hover {
-    color: var(--dark-black);
+  color: var(--dark-black);
 }
 
 .nav-item.nav-item-active {
-    font-weight: bold;
-    color: var(--dark-cyan);
+  font-weight: bold;
+  color: var(--dark-cyan);
 }
 
-
 /* ------------------------------------------------NAVBAR CSS ENDS HERE------------------------------------------ */
-
 
 /*  ---------------------------------------------SIDEBAR CSS STARTS HERE-------------------------------------------- */
 
 .sidebar-container {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 20;
-    width: auto;
-    display: flex;
-    align-items: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 20;
+  width: auto;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar-list-item {
-    font-size: 2rem;
-    list-style: none;
-    padding: 0.7rem 0.7rem;
-    font-weight: 500;
-    align-self: center;
+  font-size: 2rem;
+  list-style: none;
+  padding: 0.7rem 0.7rem;
+  font-weight: 500;
+  align-self: center;
 }
 
 .sidebar-list-item:hover {
-    color: var(--light-teal);
+  color: var(--light-teal);
 }
-
 
 /* ----------------------------------------------main-content-css-starts-here------------------------------- */
 
 .main-content-container {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-top: 3rem;
-    padding-left: 9rem;
-    position: sticky;
-    top: 0;
-    left: 16rem;
-    z-index: 18;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: 3rem;
+  padding-left: 9rem;
+  position: sticky;
+  top: 0;
+  left: 16rem;
+  z-index: 18;
 }
 
 .section1-container .section2-container,
 .section3-container {
-    margin: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex: 1;
-    position: relative;
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 1;
+  position: relative;
 }
 
 .section-heading {
-    font-size: 3rem;
-    color: var(--light-teal);
-    font-weight: 600;
-    position: sticky;
-    /* top:0.3rem;
-    left:16rem; */
+  font-size: 3rem;
+  color: var(--light-teal);
+  font-weight: 600;
+  position: sticky;
 }
 
 .section-text {
-    font-size: 1.9rem;
-    max-width: 90vw;
-    /* position: sticky;
-    top: 7rem; */
-    line-height: 3rem;
+  font-size: 1.9rem;
+  max-width: 90vw;
+  line-height: 3rem;
 }
 
 .code-link {
-    font-size: 2rem;
-    color: (--dark-cyan);
-    word-wrap: break-word;
-    height: auto;
-    max-width: 90vw;
-    padding: 1rem;
-    background-color: var(--ex-light-teal);
-    color: var(--dark-stone);
-    border-radius: 0.5rem;
+  font-size: 2rem;
+  color: (--dark-cyan);
+  word-wrap: break-word;
+  height: auto;
+  max-width: 90vw;
+  padding: 1rem;
+  background-color: var(--ex-light-teal);
+  color: var(--dark-stone);
+  border-radius: 0.5rem;
 }
 
 .section-text-list {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 .link {
-    color: var(--dark-cyan);
+  color: var(--dark-cyan);
 }
-
 
 /* first cover page CSS done-----------------------------------Media query starts here-------------------- */
 
 @media only screen and (min-width: 804px) {
-    body {
-        height: 100%;
-        width: 100%;
-    }
-    .sidebar-container {
-        font-size: 1rem;
-        margin-left: auto;
-        padding: 0;
-        grid-column: 1/2;
-    }
-    .navbar {
-        left: 0;
-        top: 0;
-        width: 100%;
-    }
-    .nav-social-media-icon-container {
-        right: 3rem;
-    }
-    .nav-item {
-        font-size: 1.7rem;
-    }
-    .code-link {
-        width: inherit;
-        word-wrap: break-word;
-    }
-    .main-content-container {
-        width: 60%;
-    }
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .sidebar-container {
+    font-size: 1rem;
+    margin-left: auto;
+    padding: 0;
+    grid-column: 1/2;
+  }
+  .navbar {
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .nav-social-media-icon-container {
+    right: 3rem;
+  }
+  .nav-item {
+    font-size: 1.7rem;
+  }
+  .code-link {
+    width: inherit;
+    word-wrap: break-word;
+  }
+  .main-content-container {
+    width: 60%;
+  }
 }

@@ -1,7 +1,9 @@
 .cover-page-container {
   display: flex;
   margin: auto;
+  width: 100vw;
   height: 100vh;
+  /* min-height: 100%; */
   background-color: var(--ex-light-teal);
 }
 .content-container {
@@ -25,4 +27,27 @@
   color: var(--dark-teal);
   margin-bottom: 4rem;
   font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+  .cover-page-container {
+    flex-direction: column;
+    width: 100vw;
+    height: fit-content;
+  }
+  .content-container {
+    margin: 4rem 0 0 2rem;
+    width: 80vw;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .image-container {
+    width: fit-content;
+  }
+  .cover-image {
+    width: fit-content;
+    height: 60vh;
+    margin: 1rem 0 0 -7rem;
+    object-fit: contain;
+  }
 }
